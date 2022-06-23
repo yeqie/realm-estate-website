@@ -1,7 +1,9 @@
+import Navbar from './components/Navbar'
+
 const App = () => {
   return (
-    <div className="container mx-auto pt-3">
-      <h1 className="text-3xl font-bold">Hello world</h1>
+    <div className="container mx-auto px-6 md:px-0 py-6">
+      <Navbar />
     </div>
   )
 }
