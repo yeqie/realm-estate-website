@@ -4,7 +4,7 @@ import CoupangLogo from '../resources/sponsors/coupang.png'
 import ShinhancardLogo from '../resources/sponsors/shinhancard.png'
 
 const About = () => (
-  <section className="grid md:grid-cols-3 gap-6 md:gap-12 border-b border-neutral-800 pb-12">
+  <section className="grid md:grid-cols-3 gap-6 md:gap-12 border-b border-neutral-800 pb-12 md:pb-24">
     <div>
       <h2 className="text-xl md:text-4xl text-neutral-50 font-medium leading-tight md:leading-snug">We Are In A Mission <br className="hidden md:block" /> To ─ Statiesfied Our Customers</h2>
     </div>
