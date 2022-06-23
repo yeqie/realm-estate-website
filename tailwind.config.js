@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       fontFamily: {
         'sans': [ 'Inter', ...defaultTheme.fontFamily.sans ]
+      },
+      backgroundImage: {
+        'hero': 'url("./resources/hero-bg.jpg")'
       }
     },
   },

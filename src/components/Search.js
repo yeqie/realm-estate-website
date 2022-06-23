@@ -1,5 +1,5 @@
 const Search = () => (
-  <div className="relative md:translate-y-1/2">
+  <div className="relative md:translate-y-1/2 mb-12 md:mb-48">
     <div className="md:absolute md:flex justify-center w-full top-0 md:-translate-y-full">
       <div className="flex justify-center items-center gap-3 bg-neutral-50 rounded-t-2xl p-3">
         <button className="bg-neutral-700 hover:bg-neutral-800 focus:bg-neutral-800 focus:outline-none focus:ring-4 focus:ring-neutral-700 w-full md:w-auto rounded-lg md:rounded-xl text-xs md:text-sm text-neutral-50 font-semibold px-4 py-1.5 md:px-8 md:py-3">Buy</button>
@@ -23,7 +23,7 @@ const Search = () => (
       <button className="bg-emerald-500 hover:bg-emerald-600 focus:bg-emerald-600 focus:outline-none focus:ring-4 focus:ring-emerald-500 w-full md:w-auto rounded-lg md:rounded-xl text-xs md:text-sm text-neutral-50 font-semibold px-4 py-2 md:px-8 md:py-4">Search</button>
     </div>
     <div className="md:absolute inset-x-0 mx-auto bottom-0 md:translate-y-full">
-      <p className="text-xs md:text-sm text-neutral-300 font-light py-3 md:py-6">We provides you the best feature from what you are inputing here</p>
+      <p className="text-xs md:text-sm text-neutral-400 font-light py-3 md:py-6">We provides you the best feature from what you are inputing here</p>
     </div>
   </div>
 )
