@@ -2,7 +2,7 @@ import Comment from '../components/Comment'
 import comments from '../data/comments'
 
 const Feedback = () => (
-  <section className="border-b border-neutral-800 py-12 md:py-24">
+  <section className="pt-12 md:pt-24">
     <div className="container mx-auto px-6 lg:px-0">
       <h2 className="text-xl md:text-4xl text-neutral-50 font-medium leading-tight md:leading-snug">Thousand Of <br /> Statisfied ─ Customers</h2>
     </div>

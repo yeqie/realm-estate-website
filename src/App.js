@@ -4,6 +4,7 @@ import About from './sections/About'
 import Stats from './sections/Stats'
 import Properties from './sections/Properties'
 import Feedback from './sections/Feedback'
+import Jumbotron from './sections/Jumbotron'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Stats />
       <Properties />
       <Feedback />
+      <Jumbotron />
     </div>
   )
 }
