@@ -5,7 +5,7 @@ const Navbar = () => {
   const [ state, setState ] = useState(false)
 
   return (
-    <nav className="flex flex-col md:flex-row relative my-6">
+    <nav className="container flex flex-col md:flex-row relative mx-auto px-6 lg:px-0 my-6">
       <div className="flex justify-between items-center w-full md:w-auto z-20">
         <a className="focus:outline-offset-8" href="/">
           <img className="h-4" src={ Logo } alt="Realm" />

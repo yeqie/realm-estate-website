@@ -1,6 +1,6 @@
 const Card = ({ title, address, image, authorTitle, authorImage }) => (
   <div className="flex flex-col gap-2 md:gap-3">
-    <img className="w-full h-72 md:h-96 object-cover rounded-2xl" src={ image } alt={ title } />
+    <img className="w-full h-72 lg:h-96 object-cover rounded-2xl" src={ image } alt={ title } />
     <h4 className="text-lg md:text-2xl font-medium">{ title }</h4>
     <p className="text-xs md:text-sm text-neutral-500">{ address }</p>
     <hr className="border-neutral-800" />
