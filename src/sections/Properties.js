@@ -25,7 +25,7 @@ const Properties = () => {
         )) }
       </div>
       <div className="text-center mt-12">
-        <button className="w-full md:w-auto bg-emerald-500 hover:bg-emerald-600 focus:bg-emerald-600 focus:outline-none focus:ring-4 focus:ring-emerald-500 rounded-lg md:rounded-xl text-neutral-50 text-xs md:text-sm font-medium mx-auto px-4 py-2 md:px-6 md:py-2.5 whitespace-nowrap">Browse All</button>
+        <a className="inline-block w-full md:w-auto bg-emerald-500 hover:bg-emerald-600 focus:bg-emerald-600 focus:outline-none focus:ring-4 focus:ring-emerald-500 rounded-lg md:rounded-xl text-neutral-50 text-xs md:text-sm font-medium mx-auto px-4 py-2 md:px-6 md:py-2.5 whitespace-nowrap" href="/">Browse All</a>
       </div>
     </section>
   )

@@ -5,6 +5,7 @@ import Stats from './sections/Stats'
 import Properties from './sections/Properties'
 import Feedback from './sections/Feedback'
 import Jumbotron from './sections/Jumbotron'
+import Footer from './sections/Footer'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Properties />
       <Feedback />
       <Jumbotron />
+      <Footer />
     </div>
   )
 }
